@@ -16,6 +16,10 @@
     display: flex;   
 }
 
+nav li:hover {
+    font-size: 15px;
+}
+
 .hom:hover {
   opacity: 1;
 }
@@ -115,6 +119,16 @@ color: #FEFCF7;
 margin-top: 60px;
 }
 
+.btn-text:hover { 
+    box-shadow: 1px 1px 1px 7px darkslateblue;
+    transition: 00.4s ease;
+}
+
+.plan:hover {
+    color: lightsalmon;
+    cursor: pointer;    
+}
+
 .plan {
     margin: 13px;
 }
@@ -123,14 +137,6 @@ margin-top: 60px;
 text-align: center;
 display: flex;
 position: relative;
-}
-
-.btn-text :active {
-    color: red;
-}
-
-.btn-text :hover {
-    cursor: pointer;
 }
 
 
@@ -260,12 +266,12 @@ border-radius: 8px;
 }
 
 .h4-text:hover{
-    background-color: blue;
+    color: blue;
     transition: 0.4s ease;
 }
 
 .artison:hover {
-    background-color: yellowgreen;
+    color: yellowgreen;
     transition: 0.4s ease;
 }
 

@@ -16,10 +16,6 @@
     display: flex;   
 }
 
-nav li:hover {
-    font-size: 15px;
-}
-
 .hom:hover {
   opacity: 1;
 }
@@ -37,8 +33,12 @@ nav li:hover {
 }
 
 .your:hover {
-    opacity: 1;
-   
+    opacity: 1;  
+}
+
+.home-peng a {
+    opacity: 0.8;
+    color: #000;
 }
 
 .your {
@@ -63,6 +63,14 @@ ul {
 li {
     text-decoration: none;
     display: flex;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    opacity: 1;
 }
 
 
@@ -117,11 +125,14 @@ line-height: 25px;
 text-align: center;
 color: #FEFCF7;
 margin-top: 60px;
+border: none;
 }
 
 .btn-text:hover { 
     box-shadow: 1px 1px 1px 7px darkslateblue;
     transition: 00.4s ease;
+    border: none;
+    outline: none;
 }
 
 .plan:hover {
@@ -425,6 +436,5 @@ color: #83888F;
 }
 
 .home-peng ul li:hover {
-    color: red;
     transition: 0.4s;
 }
